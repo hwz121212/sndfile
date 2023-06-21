@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="dft_cmp.c" />
+    <ClCompile Include="floating_point_test.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="dft_cmp.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="floating_point_test.def" />
+    <None Include="floating_point_test.tpl" />
+  </ItemGroup>
+</Project>

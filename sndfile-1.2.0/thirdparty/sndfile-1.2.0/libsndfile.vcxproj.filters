@@ -1,0 +1,372 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\common.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\file_io.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\command.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pcm.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ulaw.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\alaw.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\float32.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\double64.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ima_adpcm.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ms_adpcm.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gsm610.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dwvw.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\vox_adpcm.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\interleave.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\strings.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dither.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cart.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\broadcast.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\audio_detect.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ima_oki_adpcm.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\alac.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\chunk.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ogg.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\chanmap.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\id3.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\windows.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sndfile.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\aiff.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\au.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\avr.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\caf.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dwd.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\flac.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\g72x.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\htk.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ircam.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\macos.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mat4.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mat5.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\nist.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\paf.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pvf.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\raw.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\rx2.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sd2.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sds.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\svx.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\txw.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\voc.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\wve.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\w64.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\wavlike.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\wav.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\xi.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mpc2k.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\rf64.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ogg_vorbis.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ogg_speex.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ogg_pcm.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ogg_opus.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ogg_vcomment.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\nms_adpcm.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mpeg.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mpeg_decode.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mpeg_l3_encode.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GSM610\add.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GSM610\code.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GSM610\decode.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GSM610\gsm_create.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GSM610\gsm_decode.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GSM610\gsm_destroy.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GSM610\gsm_encode.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GSM610\gsm_option.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GSM610\long_term.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GSM610\lpc.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GSM610\preprocess.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GSM610\rpe.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GSM610\short_term.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GSM610\table.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\G72x\g721.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\G72x\g723_16.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\G72x\g723_24.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\G72x\g723_40.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ALAC\ALACBitUtilities.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ALAC\ag_dec.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ALAC\ag_enc.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ALAC\dp_dec.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ALAC\dp_enc.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ALAC\matrix_dec.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ALAC\matrix_enc.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ALAC\alac_decoder.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ALAC\alac_encoder.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\G72x\g72x_G72x.c">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\sfconfig.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sfendian.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sf_unistd.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\common.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ima_oki_adpcm.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ogg.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\chanmap.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\id3.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\wavlike.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ogg_vcomment.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GSM610\config.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GSM610\gsm.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GSM610\gsm610_priv.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\G72x\g72x.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\G72x\g72x_priv.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ALAC\ALACAudioTypes.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ALAC\ALACBitUtilities.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ALAC\EndianPortable.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ALAC\aglib.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ALAC\dplib.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ALAC\matrixlib.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ALAC\alac_codec.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ALAC\shift.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\sndfile.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\sndfile.hh">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\config.h">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{8E4F1450-C19D-3D0B-860E-7496FE73953C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{7DE78377-6D04-3DF5-95DC-9FCDE91C1756}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

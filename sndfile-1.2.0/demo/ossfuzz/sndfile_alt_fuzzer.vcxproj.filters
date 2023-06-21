@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="sndfile_alt_fuzzer.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="standaloneengine.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{7DE78377-6D04-3DF5-95DC-9FCDE91C1756}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="sndfile_fuzz_header.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="testinput.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
